@@ -1,18 +1,19 @@
 import NavBar from "./components/NavBar";
 import { useState } from "react";
 import Navbar2 from "./components/Navbar2";
-import Swipper from "./components/Swipper";
-import GridComponents from "./components/GridComponents"
+
+import HomePage from "./Pages/HomePage";
 
 //const App = () =>
 function App() {
   return (
     <>
       {/* <NavBar />  */}
-          <div className="sticky top-0 z-50 bg-white shadow-md">
+          {/* <div className="sticky top-0 z-50 bg-white shadow-md"> */}
 
-      <Navbar2 />
-      </div>
+      {/* <Navbar2 /> */}
+      <HomePage />
+      {/* </div>
       <div
         className="min-h-screen w-full relative bg-gradient-to-r 
                        from-[#f6f4ef] via-[#efe6d8] via-[#c6b59c] to-[#b7afa5]
@@ -29,8 +30,8 @@ function App() {
           Click on the image to to view our collection.
         </p>
 
-        <GridComponents/>
-      </div>
+        <GridComponents/> */}
+      
     </>
   );
 }

@@ -151,7 +151,7 @@ const Swipper = () => {
         disableOnInteraction: false,
       }}
       keyboard={{ enabled: true }}
-      className="w-full h-[35vh] sm:h-[40vh] md:h-[50vh] lg:h-[60vh] xl:h-[70vh]"
+      className="w-full h-[35vh] sm:h-[40vh] md:h-[50vh] lg:h-[60vh] xl:h-[65vh]"
     >
       <SwiperSlide className="h-full">
         <div className="w-full h-full">
